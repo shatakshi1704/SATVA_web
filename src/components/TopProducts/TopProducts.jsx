@@ -1,28 +1,28 @@
 import React from "react";
-import Img1 from "../../assets/shirt/shirt.png";
-import Img2 from "../../assets/shirt/shirt2.png";
-import Img3 from "../../assets/shirt/shirt3.png";
+import Img1 from "../../assets/shirt/candle_one.jpeg";
+import Img2 from "../../assets/shirt/candle_two.jpeg";
+import Img3 from "../../assets/shirt/candle_three.jpeg";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Casual Wear",
+    title: "Candle1",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
     img: Img2,
-    title: "Printed shirt",
+    title: "Candle2",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
     img: Img3,
-    title: "Women shirt",
+    title: "Candle3",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
@@ -33,13 +33,13 @@ const TopProducts = ({ handleOrderPopup }) => {
       <div className="container">
         {/* Header section */}
         <div className="text-left mb-24">
-          <p data-aos="fade-up" className="text-sm text-primary">
+          <p data-aos="fade-up" className="text-sm text-[#8F6E5D]">
             Top Rated Products for you
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">
+          <h1 data-aos="fade-up" className="text-3xl font-bold text-[#8F6E5D]">
             Best Products
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
+          <p data-aos="fade-up" className="text-xs text-gray-400 text-[#3D211A]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
             asperiores modi Sit asperiores modi
           </p>
@@ -56,7 +56,7 @@ const TopProducts = ({ handleOrderPopup }) => {
                 <img
                   src={data.img}
                   alt=""
-                  className="max-w-[140px] block mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md"
+                  className="h-[180px] w-[180px] block mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md"
                 />
               </div>
               {/* details section */}
@@ -73,7 +73,7 @@ const TopProducts = ({ handleOrderPopup }) => {
                   {data.description}
                 </p>
                 <button
-                  className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
+                  className="bg-[#3D211A] hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-[#CEBBCAB] group-hover:text-white"
                   onClick={handleOrderPopup}
                 >
                   Order Now

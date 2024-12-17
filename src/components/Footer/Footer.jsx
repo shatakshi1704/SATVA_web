@@ -1,6 +1,7 @@
 import React from "react";
 import footerLogo from "../../assets/logo.png";
 import Banner from "../../assets/website/footer-pattern.jpg";
+import Banner2 from "../../assets/website/white-bg.jpg";
 import {
   FaFacebook,
   FaInstagram,
@@ -10,7 +11,7 @@ import {
 } from "react-icons/fa";
 
 const BannerImg = {
-  backgroundImage: `url(${Banner})`,
+  // backgroundImage: `url(${Banner})`,
   backgroundPosition: "bottom",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
@@ -39,14 +40,14 @@ const FooterLinks = [
 
 const Footer = () => {
   return (
-    <div style={BannerImg} className="text-white">
+    <div style={BannerImg} className="text-white bg-[#3D211A] dark:bg-[#CEBCAB] dark:text-[#3D1313]">
       <div className="container">
         <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
           {/* company details */}
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              SATVA
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
@@ -61,10 +62,10 @@ const Footer = () => {
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Important Links
                 </h1>
-                <ul className="flex flex-col gap-3">
+                <ul className="flex flex-col gap-3 dark:text-[#3D1313]">
                   {FooterLinks.map((link) => (
                     <li
-                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200 dark:text-[#3D1313]"
                       key={link.title}
                     >
                       <span>{link.title}</span>
@@ -81,7 +82,7 @@ const Footer = () => {
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
                     <li
-                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200 dark:text-[#3D1313]"
                       key={link.title}
                     >
                       <span>{link.title}</span>

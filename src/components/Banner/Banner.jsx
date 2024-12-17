@@ -32,19 +32,19 @@ const Banner = () => {
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full text-[#ffffff] bg-[#561C24] dark:bg-violet-400" />
+                <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full text-[#ffffff] bg-[#561C24] dark:bg-[#230902]" />
                 <p>Quality Products</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full text-[#ffffff] bg-[#3D1313] dark:bg-orange-400" />
+                <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full text-[#ffffff] bg-[#3D1313] dark:[#3D211A]" />
                 <p>Fast Delivery</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-[#3D211A] text-[#fff] dark:bg-green-400" />
+                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-[#3D211A] text-[#fff] dark:bg-[#561C24]" />
                 <p>Easy Payment method</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-[#8f6e5d] text-[#fff] dark:bg-yellow-400" />
+                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-[#8f6e5d] text-[#fff] dark:bg-[#3D1313]" />
                 <p>Get Offers</p>
               </div>
             </div>
